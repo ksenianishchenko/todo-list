@@ -1,0 +1,59 @@
+.add-item-form {
+  width: 500px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+
+  ::-webkit-input-placeholder {
+    color: rgba(0,0,0,0.3);
+    font-size: 18px;
+    font-style: italic;
+  }
+  ::-moz-placeholder {
+    color: rgba(0,0,0,0.3);
+    font-size: 18px;
+    font-style: italic;
+  }
+  :-ms-input-placeholder {
+    color: rgba(0,0,0,0.3);
+    font-size: 18px;
+    font-style: italic;
+  }
+  :-moz-placeholder {
+    color: rgba(0,0,0,0.3);
+    font-size: 18px;
+    font-style: italic;
+  }
+}
+
+.add-item-form__input {
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  outline: none;
+  color: rgba(0,0,0,0.5);
+  font-size: 18px;
+  font-style: italic;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.add-item-form__btn {
+  display: block;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.5);
+  font-size: 18px;
+  font-style: italic;
+  border-left: none;
+  outline: none;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
