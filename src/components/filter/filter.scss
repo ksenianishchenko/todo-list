@@ -1,0 +1,17 @@
+.filter {
+  display: flex;
+}
+
+.filter__btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  color: rgba(0,0,0,0.5);
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.filter__btn.highlight {
+  border: 0.5px solid #F08080;
+}

@@ -17,6 +17,19 @@
   }
 }
 
+.todo-item.done {
+  .todo-item__status {
+    background-image: url('/checkbox.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+  }
+
+  .todo-item__label {
+    text-decoration: line-through;
+  }
+}
+
 .todo-item__status {
   display: block;
   width: 20px;
@@ -25,13 +38,6 @@
   border-radius: 50%;
   margin-right: 15px;
   cursor: pointer;
-}
-
-.todo-item__status.done {
-  background-image: url('/checkbox.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 80%;
 }
 
 .todo-item__remove {
